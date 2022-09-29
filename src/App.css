@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    width: 1.5em;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(64, 110, 153, 0.473);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(37, 133, 223, 0.473);
+    border-radius: 20px;
+    border: 5px solid rgb(165, 183, 240);
+}
+
+
+@media (max-width: 850px){
+    ::-webkit-scrollbar{
+        width: 1em;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: rgba(37, 133, 223, 0.473);
+        border-radius: 3px;
+        border: 5px solid rgb(165, 183, 240);
+    }
+}

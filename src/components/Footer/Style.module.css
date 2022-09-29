@@ -1,0 +1,94 @@
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgb(21, 44, 122);
+    border-radius: 50% 20% 0 0;
+    padding: 0 5%;
+    padding-bottom: 20px;
+}
+
+.footer_span {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_span h1{
+    color: rgb(43, 150, 238);
+    font-size: 1.5rem;
+    margin-top: 50px;
+    text-align: center;
+}
+.footer_span p{
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 1.1rem;
+    margin: 10px;
+    padding: 0 10%;
+    text-align: center;
+}
+.footer_span button{
+    color: #fff;
+    font-size: .9rem;
+    background: none;
+    border:1.4px solid rgb(0, 113, 141);
+    padding: 15px 25px;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: rgba(70, 177, 204, 0.445);
+}
+.footer_span button:hover{
+    background-color: rgba(70, 177, 204, 0.192);
+}
+
+
+.footer_row{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.footer_row div{
+    flex-basis: 22%;
+    color: rgb(230, 224, 224);
+    text-align: center;
+    height: 135px;
+    border-radius: 15px;
+    display: inline-block;
+    border: 1px solid #eee;
+}
+.footer_row div h2{
+    color: rgb(43, 150, 238);
+}
+.footer_row div h2 span{
+    color: #eee;
+}
+.footer_row div p{
+    color: rgb(43, 150, 238);
+    padding: 0 4px;
+}
+.footer_row div a{
+    text-decoration: none;
+    display: block;
+    color: rgb(43, 150, 238);
+}
+
+.copyRight{
+    text-align: center;
+    color: rgb(192, 189, 189);
+    padding: 20px 0;
+}
+
+
+@media (max-width: 750px){
+    .footer_span h1{
+        font-size: 1rem;
+    }
+    .footer_span p{
+        font-size: .8rem;        
+    }
+    .footer_row div{
+        flex-basis: 44%;
+        margin-bottom: 10px;
+    }
+}
